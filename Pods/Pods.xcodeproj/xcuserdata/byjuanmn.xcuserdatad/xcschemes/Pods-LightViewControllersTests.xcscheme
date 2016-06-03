@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0730"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C62B38B9D0C970F4DB30ABC2F62E68B5"
+               BlueprintIdentifier = "E126FA2719DB317AAE921D833FFFDF62"
                BuildableName = "libPods-LightViewControllersTests.a"
                BlueprintName = "Pods-LightViewControllersTests"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C62B38B9D0C970F4DB30ABC2F62E68B5"
+            BlueprintIdentifier = "E126FA2719DB317AAE921D833FFFDF62"
             BuildableName = "libPods-LightViewControllersTests.a"
             BlueprintName = "Pods-LightViewControllersTests"
             ReferencedContainer = "container:Pods.xcodeproj">
@@ -60,6 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E126FA2719DB317AAE921D833FFFDF62"
+            BuildableName = "libPods-LightViewControllersTests.a"
+            BlueprintName = "Pods-LightViewControllersTests"
+            ReferencedContainer = "container:Pods.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

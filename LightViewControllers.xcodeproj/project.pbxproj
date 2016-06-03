@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		59F2A54D8C36B2B2A4B7161E /* libPods-LightViewControllersTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC94A6D6D402C0EF801A584 /* libPods-LightViewControllersTests.a */; };
+		4327475E319CC3B8E4278135 /* libPods-LightViewControllersTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C47DCEE96D8F30F4B9AAB6BE /* libPods-LightViewControllersTests.a */; };
 		5D39C8811C84A90600A70B0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D39C8801C84A90600A70B0A /* main.m */; };
 		5D39C8841C84A90600A70B0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D39C8831C84A90600A70B0A /* AppDelegate.m */; };
 		5D39C8871C84A90600A70B0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D39C8861C84A90600A70B0A /* ViewController.m */; };
@@ -38,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D9EF5FBF87804B42046F35F /* Pods-LightViewControllersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightViewControllersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LightViewControllersTests/Pods-LightViewControllersTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5D39C87C1C84A90600A70B0A /* LightViewControllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightViewControllers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D39C8801C84A90600A70B0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5D39C8821C84A90600A70B0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,9 +69,8 @@
 		5DBAA5D81C85F427008221D4 /* TableViewCellForFakeEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCellForFakeEntity.h; sourceTree = "<group>"; };
 		5DBAA5D91C85F427008221D4 /* TableViewCellForFakeEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCellForFakeEntity.m; sourceTree = "<group>"; };
 		5DBAA5DA1C85F427008221D4 /* TableViewCellForFakeEntity.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCellForFakeEntity.xib; sourceTree = "<group>"; };
-		8F013F30E34A07031DDFD348 /* Pods-LightViewControllersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightViewControllersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LightViewControllersTests/Pods-LightViewControllersTests.debug.xcconfig"; sourceTree = "<group>"; };
-		CDC94A6D6D402C0EF801A584 /* libPods-LightViewControllersTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LightViewControllersTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8020A74E2A53C208D8FE4B5 /* Pods-LightViewControllersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightViewControllersTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LightViewControllersTests/Pods-LightViewControllersTests.release.xcconfig"; sourceTree = "<group>"; };
+		BDF883C5F17EFC7BB5ABE93A /* Pods-LightViewControllersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightViewControllersTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LightViewControllersTests/Pods-LightViewControllersTests.release.xcconfig"; sourceTree = "<group>"; };
+		C47DCEE96D8F30F4B9AAB6BE /* libPods-LightViewControllersTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LightViewControllersTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,13 +85,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59F2A54D8C36B2B2A4B7161E /* libPods-LightViewControllersTests.a in Frameworks */,
+				4327475E319CC3B8E4278135 /* libPods-LightViewControllersTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56EA1AD2C64BFEB2C1AB2046 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D9EF5FBF87804B42046F35F /* Pods-LightViewControllersTests.debug.xcconfig */,
+				BDF883C5F17EFC7BB5ABE93A /* Pods-LightViewControllersTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5D1FAAB41C860D4700725004 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,8 +127,8 @@
 				5D39C87E1C84A90600A70B0A /* LightViewControllers */,
 				5DBAA5BB1C84BEF2008221D4 /* LightViewControllersTests */,
 				5D39C87D1C84A90600A70B0A /* Products */,
-				D5204B23FA8205E99CF9064A /* Pods */,
-				F6F99FAED92BB7B0D914AA17 /* Frameworks */,
+				56EA1AD2C64BFEB2C1AB2046 /* Pods */,
+				C5C64596B8F03D598403CA30 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -226,19 +235,10 @@
 			name = imagenes;
 			sourceTree = "<group>";
 		};
-		D5204B23FA8205E99CF9064A /* Pods */ = {
+		C5C64596B8F03D598403CA30 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8F013F30E34A07031DDFD348 /* Pods-LightViewControllersTests.debug.xcconfig */,
-				D8020A74E2A53C208D8FE4B5 /* Pods-LightViewControllersTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		F6F99FAED92BB7B0D914AA17 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CDC94A6D6D402C0EF801A584 /* libPods-LightViewControllersTests.a */,
+				C47DCEE96D8F30F4B9AAB6BE /* libPods-LightViewControllersTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -267,11 +267,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5DBAA5C31C84BEF2008221D4 /* Build configuration list for PBXNativeTarget "LightViewControllersTests" */;
 			buildPhases = (
-				291B6D34E8ADCA4ACB636022 /* Check Pods Manifest.lock */,
+				38E6EA4ADC21F2CA6A2276C3 /* 📦 Check Pods Manifest.lock */,
 				5DBAA5B61C84BEF2008221D4 /* Sources */,
 				5DBAA5B71C84BEF2008221D4 /* Frameworks */,
 				5DBAA5B81C84BEF2008221D4 /* Resources */,
-				940FD15B37A4CBE202E5A207 /* Copy Pods Resources */,
+				BD6F3DC7C130078F709D63E7 /* 📦 Embed Pods Frameworks */,
+				BCD8933D6C7C9001E677E79D /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -344,14 +345,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		291B6D34E8ADCA4ACB636022 /* Check Pods Manifest.lock */ = {
+		38E6EA4ADC21F2CA6A2276C3 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,19 +360,34 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		940FD15B37A4CBE202E5A207 /* Copy Pods Resources */ = {
+		BCD8933D6C7C9001E677E79D /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LightViewControllersTests/Pods-LightViewControllersTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD6F3DC7C130078F709D63E7 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LightViewControllersTests/Pods-LightViewControllersTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -538,7 +554,7 @@
 		};
 		5DBAA5C11C84BEF2008221D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F013F30E34A07031DDFD348 /* Pods-LightViewControllersTests.debug.xcconfig */;
+			baseConfigurationReference = 2D9EF5FBF87804B42046F35F /* Pods-LightViewControllersTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = LightViewControllersTests/Info.plist;
@@ -552,7 +568,7 @@
 		};
 		5DBAA5C21C84BEF2008221D4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8020A74E2A53C208D8FE4B5 /* Pods-LightViewControllersTests.release.xcconfig */;
+			baseConfigurationReference = BDF883C5F17EFC7BB5ABE93A /* Pods-LightViewControllersTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = LightViewControllersTests/Info.plist;
