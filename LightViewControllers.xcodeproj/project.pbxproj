@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59F2A54D8C36B2B2A4B7161E /* libPods-LightViewControllersTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC94A6D6D402C0EF801A584 /* libPods-LightViewControllersTests.a */; };
+		5D39C8811C84A90600A70B0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D39C8801C84A90600A70B0A /* main.m */; };
+		5D39C8841C84A90600A70B0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D39C8831C84A90600A70B0A /* AppDelegate.m */; };
+		5D39C8871C84A90600A70B0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D39C8861C84A90600A70B0A /* ViewController.m */; };
+		5D39C88A1C84A90600A70B0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D39C8881C84A90600A70B0A /* Main.storyboard */; };
+		5D39C88C1C84A90600A70B0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D39C88B1C84A90600A70B0A /* Assets.xcassets */; };
+		5D39C88F1C84A90600A70B0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D39C88D1C84A90600A70B0A /* LaunchScreen.storyboard */; };
+		5D39C8A11C84B46600A70B0A /* ArrayModelDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D39C8A01C84B46600A70B0A /* ArrayModelDataSource.m */; };
+		5D836F4D1CC78F5A00CA460F /* SimpleCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D836F4B1CC78F5A00CA460F /* SimpleCellTableViewCell.m */; };
+		5D836F4E1CC78F5A00CA460F /* SimpleCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D836F4C1CC78F5A00CA460F /* SimpleCellTableViewCell.xib */; };
+		5DBAA5C61C84C23A008221D4 /* TableViewControllerDemoOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBAA5C51C84C23A008221D4 /* TableViewControllerDemoOne.m */; };
+		5DBAA5C91C84C284008221D4 /* CustomTableViewControllerDemoTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBAA5C81C84C284008221D4 /* CustomTableViewControllerDemoTwo.m */; };
+		5DBAA5CE1C85132D008221D4 /* PlainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBAA5CC1C85132D008221D4 /* PlainCell.m */; };
+		5DBAA5CF1C85132D008221D4 /* PlainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DBAA5CD1C85132D008221D4 /* PlainCell.xib */; };
+		5DBAA5D21C859F91008221D4 /* ArrayModelDataSourceTEst.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBAA5D11C859F91008221D4 /* ArrayModelDataSourceTEst.m */; };
+		5DBAA5D61C85F302008221D4 /* FakeSomeEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBAA5D51C85F302008221D4 /* FakeSomeEntity.m */; };
+		5DBAA5DB1C85F427008221D4 /* TableViewCellForFakeEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBAA5D91C85F427008221D4 /* TableViewCellForFakeEntity.m */; };
+		5DBAA5DC1C85F427008221D4 /* TableViewCellForFakeEntity.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DBAA5DA1C85F427008221D4 /* TableViewCellForFakeEntity.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DBAA5BF1C84BEF2008221D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D39C8741C84A90600A70B0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D39C87B1C84A90600A70B0A;
+			remoteInfo = LightViewControllers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D39C87C1C84A90600A70B0A /* LightViewControllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightViewControllers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D39C8801C84A90600A70B0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D39C8821C84A90600A70B0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D39C8831C84A90600A70B0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5D39C8851C84A90600A70B0A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5D39C8861C84A90600A70B0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5D39C8891C84A90600A70B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D39C88B1C84A90600A70B0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D39C88E1C84A90600A70B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D39C8901C84A90600A70B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D39C89F1C84B46600A70B0A /* ArrayModelDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayModelDataSource.h; sourceTree = "<group>"; };
+		5D39C8A01C84B46600A70B0A /* ArrayModelDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayModelDataSource.m; sourceTree = "<group>"; };
+		5D836F4A1CC78F5A00CA460F /* SimpleCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleCellTableViewCell.h; sourceTree = "<group>"; };
+		5D836F4B1CC78F5A00CA460F /* SimpleCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleCellTableViewCell.m; sourceTree = "<group>"; };
+		5D836F4C1CC78F5A00CA460F /* SimpleCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleCellTableViewCell.xib; sourceTree = "<group>"; };
+		5DBAA5BA1C84BEF2008221D4 /* LightViewControllersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightViewControllersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBAA5BE1C84BEF2008221D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DBAA5C41C84C23A008221D4 /* TableViewControllerDemoOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewControllerDemoOne.h; sourceTree = "<group>"; };
+		5DBAA5C51C84C23A008221D4 /* TableViewControllerDemoOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewControllerDemoOne.m; sourceTree = "<group>"; };
+		5DBAA5C71C84C284008221D4 /* CustomTableViewControllerDemoTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewControllerDemoTwo.h; sourceTree = "<group>"; };
+		5DBAA5C81C84C284008221D4 /* CustomTableViewControllerDemoTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewControllerDemoTwo.m; sourceTree = "<group>"; };
+		5DBAA5CB1C85132D008221D4 /* PlainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlainCell.h; sourceTree = "<group>"; };
+		5DBAA5CC1C85132D008221D4 /* PlainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlainCell.m; sourceTree = "<group>"; };
+		5DBAA5CD1C85132D008221D4 /* PlainCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlainCell.xib; sourceTree = "<group>"; };
+		5DBAA5D11C859F91008221D4 /* ArrayModelDataSourceTEst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayModelDataSourceTEst.m; sourceTree = "<group>"; };
+		5DBAA5D41C85F302008221D4 /* FakeSomeEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeSomeEntity.h; sourceTree = "<group>"; };
+		5DBAA5D51C85F302008221D4 /* FakeSomeEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeSomeEntity.m; sourceTree = "<group>"; };
+		5DBAA5D81C85F427008221D4 /* TableViewCellForFakeEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCellForFakeEntity.h; sourceTree = "<group>"; };
+		5DBAA5D91C85F427008221D4 /* TableViewCellForFakeEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCellForFakeEntity.m; sourceTree = "<group>"; };
+		5DBAA5DA1C85F427008221D4 /* TableViewCellForFakeEntity.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCellForFakeEntity.xib; sourceTree = "<group>"; };
+		8F013F30E34A07031DDFD348 /* Pods-LightViewControllersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightViewControllersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LightViewControllersTests/Pods-LightViewControllersTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDC94A6D6D402C0EF801A584 /* libPods-LightViewControllersTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LightViewControllersTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8020A74E2A53C208D8FE4B5 /* Pods-LightViewControllersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightViewControllersTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LightViewControllersTests/Pods-LightViewControllersTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D39C8791C84A90600A70B0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBAA5B71C84BEF2008221D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F2A54D8C36B2B2A4B7161E /* libPods-LightViewControllersTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D1FAAB41C860D4700725004 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5DBAA5C71C84C284008221D4 /* CustomTableViewControllerDemoTwo.h */,
+				5DBAA5C81C84C284008221D4 /* CustomTableViewControllerDemoTwo.m */,
+				5DBAA5C41C84C23A008221D4 /* TableViewControllerDemoOne.h */,
+				5DBAA5C51C84C23A008221D4 /* TableViewControllerDemoOne.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5D1FAAB51C860D6700725004 /* DataSource Custom */ = {
+			isa = PBXGroup;
+			children = (
+				5D39C89F1C84B46600A70B0A /* ArrayModelDataSource.h */,
+				5D39C8A01C84B46600A70B0A /* ArrayModelDataSource.m */,
+			);
+			name = "DataSource Custom";
+			sourceTree = "<group>";
+		};
+		5D39C8731C84A90600A70B0A = {
+			isa = PBXGroup;
+			children = (
+				5D39C87E1C84A90600A70B0A /* LightViewControllers */,
+				5DBAA5BB1C84BEF2008221D4 /* LightViewControllersTests */,
+				5D39C87D1C84A90600A70B0A /* Products */,
+				D5204B23FA8205E99CF9064A /* Pods */,
+				F6F99FAED92BB7B0D914AA17 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5D39C87D1C84A90600A70B0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D39C87C1C84A90600A70B0A /* LightViewControllers.app */,
+				5DBAA5BA1C84BEF2008221D4 /* LightViewControllersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D39C87E1C84A90600A70B0A /* LightViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5DBAA5DD1C85FBA0008221D4 /* imagenes */,
+				5D39C8821C84A90600A70B0A /* AppDelegate.h */,
+				5D39C8831C84A90600A70B0A /* AppDelegate.m */,
+				5D39C8851C84A90600A70B0A /* ViewController.h */,
+				5D39C8861C84A90600A70B0A /* ViewController.m */,
+				5D39C8881C84A90600A70B0A /* Main.storyboard */,
+				5D39C88B1C84A90600A70B0A /* Assets.xcassets */,
+				5D39C88D1C84A90600A70B0A /* LaunchScreen.storyboard */,
+				5D39C8901C84A90600A70B0A /* Info.plist */,
+				5D39C87F1C84A90600A70B0A /* Supporting Files */,
+				5DBAA5CA1C84C28E008221D4 /* TableViews Demos */,
+			);
+			path = LightViewControllers;
+			sourceTree = "<group>";
+		};
+		5D39C87F1C84A90600A70B0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D39C8801C84A90600A70B0A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D836F491CC78F2300CA460F /* Celda Simple2 */ = {
+			isa = PBXGroup;
+			children = (
+				5D836F4A1CC78F5A00CA460F /* SimpleCellTableViewCell.h */,
+				5D836F4B1CC78F5A00CA460F /* SimpleCellTableViewCell.m */,
+				5D836F4C1CC78F5A00CA460F /* SimpleCellTableViewCell.xib */,
+			);
+			name = "Celda Simple2";
+			sourceTree = "<group>";
+		};
+		5DBAA5BB1C84BEF2008221D4 /* LightViewControllersTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DBAA5BE1C84BEF2008221D4 /* Info.plist */,
+				5DBAA5D11C859F91008221D4 /* ArrayModelDataSourceTEst.m */,
+			);
+			path = LightViewControllersTests;
+			sourceTree = "<group>";
+		};
+		5DBAA5CA1C84C28E008221D4 /* TableViews Demos */ = {
+			isa = PBXGroup;
+			children = (
+				5D836F491CC78F2300CA460F /* Celda Simple2 */,
+				5D1FAAB51C860D6700725004 /* DataSource Custom */,
+				5D1FAAB41C860D4700725004 /* ViewControllers */,
+				5DBAA5D71C85F3C7008221D4 /* fakeModel */,
+				5DBAA5D31C85F2CD008221D4 /* Celda Custom */,
+				5DBAA5D01C851335008221D4 /* Celda Simple */,
+			);
+			name = "TableViews Demos";
+			sourceTree = "<group>";
+		};
+		5DBAA5D01C851335008221D4 /* Celda Simple */ = {
+			isa = PBXGroup;
+			children = (
+				5DBAA5CB1C85132D008221D4 /* PlainCell.h */,
+				5DBAA5CC1C85132D008221D4 /* PlainCell.m */,
+				5DBAA5CD1C85132D008221D4 /* PlainCell.xib */,
+			);
+			name = "Celda Simple";
+			sourceTree = "<group>";
+		};
+		5DBAA5D31C85F2CD008221D4 /* Celda Custom */ = {
+			isa = PBXGroup;
+			children = (
+				5DBAA5D81C85F427008221D4 /* TableViewCellForFakeEntity.h */,
+				5DBAA5D91C85F427008221D4 /* TableViewCellForFakeEntity.m */,
+				5DBAA5DA1C85F427008221D4 /* TableViewCellForFakeEntity.xib */,
+			);
+			name = "Celda Custom";
+			sourceTree = "<group>";
+		};
+		5DBAA5D71C85F3C7008221D4 /* fakeModel */ = {
+			isa = PBXGroup;
+			children = (
+				5DBAA5D41C85F302008221D4 /* FakeSomeEntity.h */,
+				5DBAA5D51C85F302008221D4 /* FakeSomeEntity.m */,
+			);
+			name = fakeModel;
+			sourceTree = "<group>";
+		};
+		5DBAA5DD1C85FBA0008221D4 /* imagenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = imagenes;
+			sourceTree = "<group>";
+		};
+		D5204B23FA8205E99CF9064A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F013F30E34A07031DDFD348 /* Pods-LightViewControllersTests.debug.xcconfig */,
+				D8020A74E2A53C208D8FE4B5 /* Pods-LightViewControllersTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F6F99FAED92BB7B0D914AA17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDC94A6D6D402C0EF801A584 /* libPods-LightViewControllersTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D39C87B1C84A90600A70B0A /* LightViewControllers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D39C8931C84A90600A70B0A /* Build configuration list for PBXNativeTarget "LightViewControllers" */;
+			buildPhases = (
+				5D39C8781C84A90600A70B0A /* Sources */,
+				5D39C8791C84A90600A70B0A /* Frameworks */,
+				5D39C87A1C84A90600A70B0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightViewControllers;
+			productName = LightViewControllers;
+			productReference = 5D39C87C1C84A90600A70B0A /* LightViewControllers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DBAA5B91C84BEF2008221D4 /* LightViewControllersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DBAA5C31C84BEF2008221D4 /* Build configuration list for PBXNativeTarget "LightViewControllersTests" */;
+			buildPhases = (
+				291B6D34E8ADCA4ACB636022 /* Check Pods Manifest.lock */,
+				5DBAA5B61C84BEF2008221D4 /* Sources */,
+				5DBAA5B71C84BEF2008221D4 /* Frameworks */,
+				5DBAA5B81C84BEF2008221D4 /* Resources */,
+				940FD15B37A4CBE202E5A207 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DBAA5C01C84BEF2008221D4 /* PBXTargetDependency */,
+			);
+			name = LightViewControllersTests;
+			productName = LightViewControllersTests;
+			productReference = 5DBAA5BA1C84BEF2008221D4 /* LightViewControllersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D39C8741C84A90600A70B0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Cloud On Mobile S.L.";
+				TargetAttributes = {
+					5D39C87B1C84A90600A70B0A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					5DBAA5B91C84BEF2008221D4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 5D39C87B1C84A90600A70B0A;
+					};
+				};
+			};
+			buildConfigurationList = 5D39C8771C84A90600A70B0A /* Build configuration list for PBXProject "LightViewControllers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D39C8731C84A90600A70B0A;
+			productRefGroup = 5D39C87D1C84A90600A70B0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D39C87B1C84A90600A70B0A /* LightViewControllers */,
+				5DBAA5B91C84BEF2008221D4 /* LightViewControllersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D39C87A1C84A90600A70B0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D39C88F1C84A90600A70B0A /* LaunchScreen.storyboard in Resources */,
+				5D836F4E1CC78F5A00CA460F /* SimpleCellTableViewCell.xib in Resources */,
+				5D39C88C1C84A90600A70B0A /* Assets.xcassets in Resources */,
+				5DBAA5CF1C85132D008221D4 /* PlainCell.xib in Resources */,
+				5DBAA5DC1C85F427008221D4 /* TableViewCellForFakeEntity.xib in Resources */,
+				5D39C88A1C84A90600A70B0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBAA5B81C84BEF2008221D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		291B6D34E8ADCA4ACB636022 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		940FD15B37A4CBE202E5A207 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LightViewControllersTests/Pods-LightViewControllersTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D39C8781C84A90600A70B0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D39C8A11C84B46600A70B0A /* ArrayModelDataSource.m in Sources */,
+				5DBAA5DB1C85F427008221D4 /* TableViewCellForFakeEntity.m in Sources */,
+				5DBAA5C91C84C284008221D4 /* CustomTableViewControllerDemoTwo.m in Sources */,
+				5DBAA5CE1C85132D008221D4 /* PlainCell.m in Sources */,
+				5DBAA5C61C84C23A008221D4 /* TableViewControllerDemoOne.m in Sources */,
+				5D836F4D1CC78F5A00CA460F /* SimpleCellTableViewCell.m in Sources */,
+				5D39C8871C84A90600A70B0A /* ViewController.m in Sources */,
+				5DBAA5D61C85F302008221D4 /* FakeSomeEntity.m in Sources */,
+				5D39C8841C84A90600A70B0A /* AppDelegate.m in Sources */,
+				5D39C8811C84A90600A70B0A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBAA5B61C84BEF2008221D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DBAA5D21C859F91008221D4 /* ArrayModelDataSourceTEst.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DBAA5C01C84BEF2008221D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D39C87B1C84A90600A70B0A /* LightViewControllers */;
+			targetProxy = 5DBAA5BF1C84BEF2008221D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D39C8881C84A90600A70B0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D39C8891C84A90600A70B0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D39C88D1C84A90600A70B0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D39C88E1C84A90600A70B0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D39C8911C84A90600A70B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D39C8921C84A90600A70B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D39C8941C84A90600A70B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LightViewControllers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CoM.LightViewControllers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D39C8951C84A90600A70B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LightViewControllers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CoM.LightViewControllers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5DBAA5C11C84BEF2008221D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F013F30E34A07031DDFD348 /* Pods-LightViewControllersTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LightViewControllersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = CoM.LightViewControllersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightViewControllers.app/LightViewControllers";
+			};
+			name = Debug;
+		};
+		5DBAA5C21C84BEF2008221D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8020A74E2A53C208D8FE4B5 /* Pods-LightViewControllersTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LightViewControllersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CoM.LightViewControllersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightViewControllers.app/LightViewControllers";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D39C8771C84A90600A70B0A /* Build configuration list for PBXProject "LightViewControllers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D39C8911C84A90600A70B0A /* Debug */,
+				5D39C8921C84A90600A70B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D39C8931C84A90600A70B0A /* Build configuration list for PBXNativeTarget "LightViewControllers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D39C8941C84A90600A70B0A /* Debug */,
+				5D39C8951C84A90600A70B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DBAA5C31C84BEF2008221D4 /* Build configuration list for PBXNativeTarget "LightViewControllersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DBAA5C11C84BEF2008221D4 /* Debug */,
+				5DBAA5C21C84BEF2008221D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D39C8741C84A90600A70B0A /* Project object */;
+}
