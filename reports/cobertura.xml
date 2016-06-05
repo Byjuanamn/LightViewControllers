@@ -1,0 +1,282 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.2487562189054726" branch-rate="1.0000000000000000" lines-covered="50" lines-valid="201" branches-covered="0" branches-valid="0" complexity="0.0" timestamp="1465122935" version="Slather 2.2.1">
+  <sources>
+    <source>/Users/byjuanmn/CloudStation/Desarrollo/Proyectos/CloudOnMobile/LightViewControllers</source>
+  </sources>
+  <packages>
+    <package name=".....................Applications.Xcode.app.Contents.Developer.Platforms.iPhoneSimulator.platform.Developer.SDKs.iPhoneSimulator.sdk.usr.include.objc" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="objc.h" filename="../../../../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/include/objc/objc.h" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="73" branch="false" hits="1"/>
+            <line number="92" branch="false" hits="2"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name=".....................Applications.Xcode.app.Contents.Developer.Platforms.iPhoneSimulator.platform.Developer.SDKs.iPhoneSimulator.sdk.usr.include.sys" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="_types.h" filename="../../../../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/include/sys/_types.h" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="52" branch="false" hits="2"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="LightViewControllers" line-rate="0.2373737373737374" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="AppDelegate.m" filename="LightViewControllers/AppDelegate.m" line-rate="0.3333333333333333" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="11" branch="false" hits="1"/>
+            <line number="12" branch="false" hits="1"/>
+            <line number="13" branch="false" hits="1"/>
+            <line number="14" branch="false" hits="1"/>
+            <line number="16" branch="false" hits="0"/>
+            <line number="17" branch="false" hits="0"/>
+            <line number="18" branch="false" hits="0"/>
+            <line number="19" branch="false" hits="0"/>
+            <line number="21" branch="false" hits="0"/>
+            <line number="22" branch="false" hits="0"/>
+            <line number="23" branch="false" hits="0"/>
+            <line number="24" branch="false" hits="0"/>
+            <line number="26" branch="false" hits="0"/>
+            <line number="27" branch="false" hits="0"/>
+            <line number="28" branch="false" hits="0"/>
+            <line number="30" branch="false" hits="1"/>
+            <line number="31" branch="false" hits="1"/>
+            <line number="32" branch="false" hits="1"/>
+            <line number="34" branch="false" hits="0"/>
+            <line number="35" branch="false" hits="0"/>
+            <line number="36" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="ArrayModelDataSource.m" filename="LightViewControllers/ArrayModelDataSource.m" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="17" branch="false" hits="1"/>
+            <line number="18" branch="false" hits="1"/>
+            <line number="19" branch="false" hits="1"/>
+            <line number="23" branch="false" hits="3"/>
+            <line number="24" branch="false" hits="3"/>
+            <line number="25" branch="false" hits="3"/>
+            <line number="26" branch="false" hits="3"/>
+            <line number="27" branch="false" hits="3"/>
+            <line number="28" branch="false" hits="3"/>
+            <line number="29" branch="false" hits="3"/>
+            <line number="30" branch="false" hits="3"/>
+            <line number="31" branch="false" hits="3"/>
+            <line number="32" branch="false" hits="3"/>
+            <line number="33" branch="false" hits="3"/>
+            <line number="38" branch="false" hits="1"/>
+            <line number="39" branch="false" hits="1"/>
+            <line number="40" branch="false" hits="1"/>
+            <line number="44" branch="false" hits="1"/>
+            <line number="45" branch="false" hits="1"/>
+            <line number="46" branch="false" hits="1"/>
+            <line number="49" branch="false" hits="1"/>
+            <line number="50" branch="false" hits="1"/>
+            <line number="51" branch="false" hits="1"/>
+            <line number="52" branch="false" hits="1"/>
+            <line number="53" branch="false" hits="1"/>
+            <line number="54" branch="false" hits="1"/>
+            <line number="55" branch="false" hits="1"/>
+            <line number="56" branch="false" hits="1"/>
+            <line number="57" branch="false" hits="1"/>
+            <line number="58" branch="false" hits="1"/>
+            <line number="59" branch="false" hits="1"/>
+          </lines>
+        </class>
+        <class name="CustomTableViewControllerDemoTwo.m" filename="LightViewControllers/CustomTableViewControllerDemoTwo.m" line-rate="0.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="21" branch="false" hits="0"/>
+            <line number="22" branch="false" hits="0"/>
+            <line number="23" branch="false" hits="0"/>
+            <line number="24" branch="false" hits="0"/>
+            <line number="25" branch="false" hits="0"/>
+            <line number="26" branch="false" hits="0"/>
+            <line number="27" branch="false" hits="0"/>
+            <line number="29" branch="false" hits="0"/>
+            <line number="30" branch="false" hits="0"/>
+            <line number="31" branch="false" hits="0"/>
+            <line number="32" branch="false" hits="0"/>
+            <line number="36" branch="false" hits="0"/>
+            <line number="37" branch="false" hits="0"/>
+            <line number="38" branch="false" hits="0"/>
+            <line number="39" branch="false" hits="0"/>
+            <line number="40" branch="false" hits="0"/>
+            <line number="41" branch="false" hits="0"/>
+            <line number="42" branch="false" hits="0"/>
+            <line number="43" branch="false" hits="0"/>
+            <line number="44" branch="false" hits="0"/>
+            <line number="45" branch="false" hits="0"/>
+            <line number="46" branch="false" hits="0"/>
+            <line number="47" branch="false" hits="0"/>
+            <line number="48" branch="false" hits="0"/>
+            <line number="49" branch="false" hits="0"/>
+            <line number="50" branch="false" hits="0"/>
+            <line number="51" branch="false" hits="0"/>
+            <line number="52" branch="false" hits="0"/>
+            <line number="53" branch="false" hits="0"/>
+            <line number="58" branch="false" hits="0"/>
+            <line number="59" branch="false" hits="0"/>
+            <line number="60" branch="false" hits="0"/>
+            <line number="65" branch="false" hits="0"/>
+            <line number="66" branch="false" hits="0"/>
+            <line number="67" branch="false" hits="0"/>
+            <line number="68" branch="false" hits="0"/>
+            <line number="69" branch="false" hits="0"/>
+            <line number="70" branch="false" hits="0"/>
+            <line number="71" branch="false" hits="0"/>
+            <line number="72" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="FakeSomeEntity.m" filename="LightViewControllers/FakeSomeEntity.m" line-rate="0.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="14" branch="false" hits="0"/>
+            <line number="15" branch="false" hits="0"/>
+            <line number="16" branch="false" hits="0"/>
+            <line number="17" branch="false" hits="0"/>
+            <line number="18" branch="false" hits="0"/>
+            <line number="19" branch="false" hits="0"/>
+            <line number="20" branch="false" hits="0"/>
+            <line number="21" branch="false" hits="0"/>
+            <line number="22" branch="false" hits="0"/>
+            <line number="23" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="PlainCell.m" filename="LightViewControllers/PlainCell.m" line-rate="0.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="7" branch="false" hits="0"/>
+            <line number="8" branch="false" hits="0"/>
+            <line number="9" branch="false" hits="0"/>
+            <line number="12" branch="false" hits="0"/>
+            <line number="13" branch="false" hits="0"/>
+            <line number="14" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="SimpleCellTableViewCell.m" filename="LightViewControllers/SimpleCellTableViewCell.m" line-rate="0.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="11" branch="false" hits="0"/>
+            <line number="15" branch="false" hits="0"/>
+            <line number="16" branch="false" hits="0"/>
+            <line number="17" branch="false" hits="0"/>
+            <line number="19" branch="false" hits="0"/>
+            <line number="20" branch="false" hits="0"/>
+            <line number="21" branch="false" hits="0"/>
+            <line number="22" branch="false" hits="0"/>
+            <line number="23" branch="false" hits="0"/>
+            <line number="24" branch="false" hits="0"/>
+            <line number="25" branch="false" hits="0"/>
+            <line number="26" branch="false" hits="0"/>
+            <line number="27" branch="false" hits="0"/>
+            <line number="28" branch="false" hits="0"/>
+            <line number="29" branch="false" hits="0"/>
+            <line number="30" branch="false" hits="0"/>
+            <line number="31" branch="false" hits="0"/>
+            <line number="32" branch="false" hits="0"/>
+            <line number="33" branch="false" hits="0"/>
+            <line number="34" branch="false" hits="0"/>
+            <line number="35" branch="false" hits="0"/>
+            <line number="36" branch="false" hits="0"/>
+            <line number="37" branch="false" hits="0"/>
+            <line number="38" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="TableViewCellForFakeEntity.m" filename="LightViewControllers/TableViewCellForFakeEntity.m" line-rate="0.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="13" branch="false" hits="0"/>
+            <line number="14" branch="false" hits="0"/>
+            <line number="15" branch="false" hits="0"/>
+            <line number="17" branch="false" hits="0"/>
+            <line number="18" branch="false" hits="0"/>
+            <line number="19" branch="false" hits="0"/>
+            <line number="20" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="TableViewControllerDemoOne.m" filename="LightViewControllers/TableViewControllerDemoOne.m" line-rate="0.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="26" branch="false" hits="0"/>
+            <line number="27" branch="false" hits="0"/>
+            <line number="28" branch="false" hits="0"/>
+            <line number="29" branch="false" hits="0"/>
+            <line number="30" branch="false" hits="0"/>
+            <line number="31" branch="false" hits="0"/>
+            <line number="32" branch="false" hits="0"/>
+            <line number="33" branch="false" hits="0"/>
+            <line number="34" branch="false" hits="0"/>
+            <line number="35" branch="false" hits="0"/>
+            <line number="36" branch="false" hits="0"/>
+            <line number="37" branch="false" hits="0"/>
+            <line number="39" branch="false" hits="0"/>
+            <line number="40" branch="false" hits="0"/>
+            <line number="41" branch="false" hits="0"/>
+            <line number="42" branch="false" hits="0"/>
+            <line number="43" branch="false" hits="0"/>
+            <line number="47" branch="false" hits="0"/>
+            <line number="48" branch="false" hits="0"/>
+            <line number="49" branch="false" hits="0"/>
+            <line number="50" branch="false" hits="0"/>
+            <line number="51" branch="false" hits="0"/>
+            <line number="52" branch="false" hits="0"/>
+            <line number="53" branch="false" hits="0"/>
+            <line number="54" branch="false" hits="0"/>
+            <line number="55" branch="false" hits="0"/>
+            <line number="56" branch="false" hits="0"/>
+            <line number="57" branch="false" hits="0"/>
+            <line number="58" branch="false" hits="0"/>
+            <line number="59" branch="false" hits="0"/>
+            <line number="60" branch="false" hits="0"/>
+            <line number="61" branch="false" hits="0"/>
+            <line number="62" branch="false" hits="0"/>
+            <line number="63" branch="false" hits="0"/>
+            <line number="64" branch="false" hits="0"/>
+            <line number="65" branch="false" hits="0"/>
+            <line number="66" branch="false" hits="0"/>
+            <line number="67" branch="false" hits="0"/>
+            <line number="68" branch="false" hits="0"/>
+            <line number="69" branch="false" hits="0"/>
+            <line number="70" branch="false" hits="0"/>
+            <line number="71" branch="false" hits="0"/>
+            <line number="72" branch="false" hits="0"/>
+            <line number="73" branch="false" hits="0"/>
+            <line number="74" branch="false" hits="0"/>
+            <line number="75" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="ViewController.m" filename="LightViewControllers/ViewController.m" line-rate="0.5000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="10" branch="false" hits="1"/>
+            <line number="11" branch="false" hits="1"/>
+            <line number="12" branch="false" hits="1"/>
+            <line number="13" branch="false" hits="1"/>
+            <line number="15" branch="false" hits="0"/>
+            <line number="16" branch="false" hits="0"/>
+            <line number="17" branch="false" hits="0"/>
+            <line number="18" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="main.m" filename="LightViewControllers/main.m" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="12" branch="false" hits="1"/>
+            <line number="13" branch="false" hits="1"/>
+            <line number="14" branch="false" hits="1"/>
+            <line number="15" branch="false" hits="1"/>
+            <line number="16" branch="false" hits="1"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
